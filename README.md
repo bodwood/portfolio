@@ -4,13 +4,17 @@
 
 #### _A simple webpage for my porfolio_
 
-### Link
+---
+
+## Link
 
 _https://github.com/bodwood/portfolio_
 
-### Github Site
+## Github Site
 
 _https://bodwood.github.io/porfolio_
+
+---
 
 ## Technologies Used
 
@@ -35,6 +39,7 @@ _Users are able to view projects by clicking on the links pointing to those proj
 * _The h1 header within the education div is currently not responsive_
 * _The college and certificate elements are not response._
 
+---
 
 ## License
 
