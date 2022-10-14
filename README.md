@@ -1,8 +1,16 @@
-# _{Application Name}_
+# Portfolio
 
 #### By _**Bodie Wood**_
 
 #### _A simple webpage for my porfolio_
+
+### Link
+
+_https://github.com/bodwood/portfolio_
+
+### Github Site
+
+_https://bodwood.github.io/porfolio_
 
 ## Technologies Used
 
@@ -18,21 +26,19 @@ _Users are able to view projects by clicking on the links pointing to those proj
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Clone this repository to your desktop._
+* _Navigate to the most top directory._
+* _Open index.html_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _The h1 header within the education div is currently not responsive_
+* _The college and certificate elements are not response._
+
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_MIT_
+https://choosealicense.com/licenses/mit/
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) 2022 _Bodie Wood_
