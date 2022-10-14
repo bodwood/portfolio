@@ -34,6 +34,15 @@ hr{
   text-align: center;
 }
 
+.about-me-and-image h1{
+  padding-bottom: 50px;
+  font-size: 50px;;
+}
+
+.me-and-dog{
+  padding-bottom: 20px;
+}
+
 .me-and-dog img {
   width: 200px;
   height: auto;
@@ -44,6 +53,8 @@ hr{
  margin: 100px auto;
  width: 50%;
  text-align: center;
+ padding-top: 20px;
+ padding-bottom: 50px;
 }
 
 .onewheel img {
@@ -55,7 +66,9 @@ hr{
   float: left;
 }
 
-
+.food{
+  padding-bottom: 50px;
+}
 
 .food img {
   width: 150px;
