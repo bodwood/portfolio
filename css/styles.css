@@ -17,9 +17,10 @@ hr {
   text-align: center;
 }
 
-.top-page h2{
-  padding-top: 50px;
-  animation: 3s alternate slidein;
+.top-page .cloud1{
+  position: absolute;
+  top: 50px;
+  left: 300px;
 }
 
 @keyframes slidein {
@@ -33,6 +34,31 @@ hr {
     width: 100%;
   }
 }
+
+.top-page .cloud2{
+  position: absolute;
+  top: 600px;
+  right: 50px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.top-page h2{
+  padding-top: 50px;
+  animation: 3s  slidein;
+}
+
 
 .mid-page {
   background-color: #A5EBDE;
