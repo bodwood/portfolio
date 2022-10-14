@@ -17,6 +17,41 @@
   padding-bottom: 200px;
   text-align: center;
 }
+.mid-page h1{
+  padding-bottom: 20px;
+
+}
+
+.me-and-dog img{
+  width: 200px;
+  height: auto;
+
+}
+
+.onewheel img{
+  width: 150px;
+  height: auto;
+
+}
+
+.food img{
+  width: 150px;
+  height: auto;
+
+}
+
+.travel img{
+  width: 150px;
+  height: auto;
+
+}
+
+.bottom-page{
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  text-align: center;
+}
 
 .gitrepo-1{
   width: 300px;
@@ -31,8 +66,4 @@
 .gitrepo-3{
   width: 300px;
   float: left;
-}
-
-.bottom-page{
-  padding-top: 100px;
 }
