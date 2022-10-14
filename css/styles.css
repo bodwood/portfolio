@@ -19,6 +19,19 @@ hr {
 
 .top-page h2{
   padding-top: 50px;
+  animation: 3s alternate slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .mid-page {
