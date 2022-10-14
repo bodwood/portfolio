@@ -151,7 +151,7 @@ hr {
   float: left;
 }
 
-.jumbotron{
+.bottom-page .jumbotron{
   background: rgba(204, 204, 204, 0.91);
-  
+  height: auto;
 }
