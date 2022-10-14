@@ -12,14 +12,12 @@ hr {
 .top-page {
   background-color: #E4F9F5;
   position: relative;
-  padding: 200px 200px;
+  padding: 300px 400px;
   text-align: center;
 }
 
-.top-page h1 {
-  color: #2DCAAD;
-  font-size: 100px;
-  padding-bottom: 50px;
+.top-page h2{
+  padding-top: 50px;
 }
 
 .mid-page {
@@ -40,8 +38,6 @@ hr {
 
 .about-me-and-image h1 {
   padding-bottom: 50px;
-  font-size: 50px;
-  ;
 }
 
 .me-and-dog {
@@ -68,8 +64,9 @@ hr {
 }
 
 .education h1 {
-  padding-left: 200px;
   margin: auto;
+  padding-left: 175px;
+  padding-bottom: 100px;
   text-align: center;
 
 }
