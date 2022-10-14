@@ -1,4 +1,4 @@
-body{
+body {
   background-size: 100% 100%;
 }
 
@@ -136,22 +136,9 @@ hr {
   text-align: center;
 }
 
-.gitrepo-1 {
-  width: 300px;
-  float: left;
-}
 
-.gitrepo-2 {
-  width: 300px;
-  float: left;
-}
 
-.gitrepo-3 {
-  width: 300px;
-  float: left;
-}
-
-.bottom-page .jumbotron{
+.bottom-page .jumbotron {
   background: rgba(204, 204, 204, 0.91);
   height: auto;
 }
