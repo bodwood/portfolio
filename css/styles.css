@@ -5,6 +5,7 @@ body {
 hr {
   border: none;
   border-top: 10px dotted;
+  color: #E4F9F5;
   width: 5%;
   margin: 100px auto;
 }
