@@ -1,4 +1,4 @@
-.top-page{
+.top-page {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
@@ -6,64 +6,77 @@
   text-align: center;
 }
 
-.top-page h1{
+.top-page h1 {
   color: #2DCAAD;
 }
 
-.mid-page{
+.mid-page {
   background-color: #A5EBDE;
-  position: relative;
+  text-align: center;
   padding-top: 100px;
   padding-bottom: 200px;
+}
+
+.mid-page h1 {
+  padding-bottom: 20px;
   text-align: center;
 }
-.mid-page h1{
-  padding-bottom: 20px;
 
+.about-me-and-image{
+  text-align: center;
 }
 
-.me-and-dog img{
+.me-and-dog img {
   width: 200px;
   height: auto;
-
+  
 }
 
-.onewheel img{
+.onewheel{
+  display: block;
+ text-align: left;
+}
+
+.onewheel img {
+  width: 150px;
+  height: auto;
+}
+
+.onewheel p{
+}
+
+
+
+.food img {
   width: 150px;
   height: auto;
 
 }
 
-.food img{
+.travel img {
   width: 150px;
   height: auto;
 
 }
 
-.travel img{
-  width: 150px;
-  height: auto;
-
-}
-
-.bottom-page{
+.bottom-page {
   position: relative;
   padding-top: 100px;
   padding-bottom: 200px;
   text-align: center;
 }
 
-.gitrepo-1{
+.gitrepo-1 {
   width: 300px;
   float: left;
 }
 
-.gitrepo-2{
+.gitrepo-2 {
   width: 300px;
   float: left;
 }
 
-.gitrepo-3{
+.gitrepo-3 {
   width: 300px;
   float: left;
 }
