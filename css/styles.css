@@ -1,4 +1,4 @@
-hr{
+hr {
   border: none;
   border-top: 10px dotted;
   width: 5%;
@@ -30,65 +30,74 @@ hr{
   text-align: center;
 }
 
-.about-me-and-image{
+.about-me-and-image {
   text-align: center;
 }
 
-.about-me-and-image h1{
+.about-me-and-image h1 {
   padding-bottom: 50px;
-  font-size: 50px;;
+  font-size: 50px;
+  ;
 }
 
-.me-and-dog{
+.me-and-dog {
   padding-bottom: 20px;
 }
 
 .me-and-dog img {
   width: 200px;
   height: auto;
-  
+
 }
 
 
 
-.education{
+.education {
   width: 50%;
   margin: auto;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 100px;
-  padding-right: 200px;;
+  padding-right: 200px;
+  ;
 
 }
 
-.college{
+.education h1 {
+  padding-left: 200px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.college {
   display: inline-block;
 
-  }
-
-  .college ol{
-   text-align: left;
 }
 
-.certificates{
+.college ol {
+  text-align: left;
+}
+
+.certificates {
 
   float: right;
   padding-right: 10%;
 }
 
-.certificates ul{
+.certificates ul {
   text-align: left;
 }
 
 
 
 
-.onewheel{
- margin: 100px auto;
- width: 50%;
- text-align: center;
- padding-top: 20px;
- padding-bottom: 50px;
+.onewheel {
+  margin: 100px auto;
+  width: 50%;
+  text-align: center;
+
+  padding-bottom: 50px;
 }
 
 .onewheel img {
@@ -96,11 +105,11 @@ hr{
   height: auto;
 }
 
-.onewheel p{
+.onewheel p {
   float: left;
 }
 
-.food{
+.food {
   padding-bottom: 50px;
 }
 
