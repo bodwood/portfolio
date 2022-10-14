@@ -17,61 +17,34 @@ hr {
   text-align: center;
 }
 
-.top-page .cloud1{
+.top-page .cloud1 {
   position: absolute;
   top: 50px;
-  left: 0px;
-  animation-name: clouds;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
+  right: 300px;
 }
 
-.top-page .cloud2{
-  position: absolute;
-  top: 600px;
-  right: 50px;
-  animation-name: clouds2;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes clouds{
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(2050px);
-  }
-}
-
-@keyframes clouds2{
-  from {
-    transform: translateX(0px);
-  }
-
-  to {
-    transform: translateX(-2050px);
-  }
-}
-
-.top-page h2{
+.top-page h2 {
   padding-top: 50px;
-  animation: 3s slidein;
+  animation-delay: 2s;
+  animation: 8s fadein;
 }
 
-@keyframes slidein {
+@keyframes fadein {
   from {
-    margin-left: 100%;
-    width: 300%;
+    opacity: 0;
   }
 
   to {
-    margin-left: 0%;
-    width: 100%;
+    opacity: 1;
   }
 }
 
+.top-page .cloud2 {
+  position: absolute;
+  left: 200px;
+  bottom: 270px;
+
+}
 
 .mid-page {
   background-color: #A5EBDE;
@@ -145,7 +118,8 @@ hr {
   margin: 100px auto;
   width: 50%;
   text-align: center;
-
+  font-family: Garamond;
+  font-size: 20px;
   padding-bottom: 50px;
 }
 
@@ -160,12 +134,19 @@ hr {
 
 .food {
   padding-bottom: 50px;
+  font-family: Garamond;
+  font-size: 20px;
 }
 
 .food img {
   width: 150px;
   height: auto;
 
+}
+
+.travel {
+  font-family: Garamond;
+  font-size: 20px;
 }
 
 .travel img {
@@ -180,8 +161,6 @@ hr {
   padding-bottom: 200px;
   text-align: center;
 }
-
-
 
 .bottom-page .jumbotron {
   background: rgba(204, 204, 204, 0.91);
