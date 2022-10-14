@@ -20,17 +20,19 @@ hr {
 .top-page .cloud1{
   position: absolute;
   top: 50px;
-  left: 300px;
+  left: 0px;
   animation-name: clouds;
-  animation-duration: 3s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
 
 .top-page .cloud2{
   position: absolute;
   top: 600px;
   right: 50px;
-  animation-name: clouds;
-  animation-duration: 3s;
+  animation-name: clouds2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes clouds{
@@ -39,7 +41,17 @@ hr {
   }
 
   to {
-    transform: translateX(700px);
+    transform: translateX(2050px);
+  }
+}
+
+@keyframes clouds2{
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform: translateX(-2050px);
   }
 }
 
