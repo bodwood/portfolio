@@ -26,7 +26,7 @@ _https://bodwood.github.io/porfolio_
 
 _This webpage allows users to view a portfolio about Bodie Wood (myself). Users can view my accomplishments, education, skills, and what I love to do._
 
-_Users are able to view projects by clicking on the links pointing to those projects_
+_Users are able to view my projects by clicking on the links pointing to those projects_
 
 ## Setup/Installation Requirements
 
