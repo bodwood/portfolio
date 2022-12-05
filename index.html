@@ -21,111 +21,204 @@
 
     <div class="mid-page">
       <!--START MID PAGE-->
-      <div class="about-me-and-image">
-        <h1><span style="font-size: 75px;">About me</span></h1>
-        <div class="me-and-dog">
-          <img src="img/portfolio-pic.png" alt="photo of Bodie">
+      <div class="row">
+        <div class="col">
+          <h1>About me</h1>
+        </div>
+
+        <div class="col-12" id="photo-div">
+          <img id="img-div" src="img/portfolio-pic.png" alt="photo of Bodie">
+        </div>
+
+
+        <div class="col-12">
           <h2>Hello.</h2>
+        </div>
+
+        <div class="col-12">
           <p>I am a student at Epicodus learning HTML/CSS basics, within the C#/React track. I love coding and am
             curious
             to continue learning!</p>
-          <div class="education">
-            <h1>Education</h1>
-            <div class="college">
-              <h2>College</h2>
-              <ol>
-                <li>BS Computer Science</li>
-                <li>BS Kinesiology</li>
-              </ol>
-            </div>
-            <div class="certificates">
-              <h2>Certificates</h2>
-              <ul>
-                <li>Project Management+</li>
-                <li>ITIL V4</li>
-                <li>M365 Fundamentals</li>
-              </ul>
-            </div>
-          </div>
-          <hr>
         </div>
-        <h1>What I love</h1>
-      </div>
-      <div class="onewheel">
-        <img src="img/skate.png" alt="icon of person skateboarding">
-        <p>During my free time I love to Onewheel. I have over 2000 miles between all three of my boards.
-          I love the Onewheel and erider community! Espeically in Portland!
-        </p>
-      </div>
-      <div class="food">
-        <img src="img/food.png" alt="icon of pineapple">
-        <p>Trying new food is an experience that I live for. Serisoulsy, I could eat non-stop if I couldn't control
-          myself.
-          Indian curry and sushi are among my favorite foods!
-        </p>
-      </div>
-      <div class="travel">
-        <img src="img/travel.png" alt="icon of sunset">
-        <p>Traveling is my all time favorite thing to do in life. I love exploring new places and learning about
-          cultures.
-          I want to travel to Europe and the Middle East, and eat delicious food.
-        </p>
+
+
+
+
+
+        <div class="col-12">
+          <h1 id="educationDiv">Education</h1>
+        </div>
+
+        <div class="col-12">
+          <table>
+            <tbody>
+              <th>College</th>
+              <th>Certificates</th>
+              <tr>
+                <td>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>BS Computer Science</td>
+
+                      </tr>
+                      <tr>
+                        <td>BS Kinesiology</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+
+                <td>
+
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>Project Management+</td>
+
+                      </tr>
+                      <tr>
+                        <td>ITIL V4</td>
+
+                      </tr>
+                      <tr>
+                        <td>M365 Fundamentals</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
       </div>
     </div>
+
+
+    <hr>
+
     <!--END MID PAGE-->
 
 
 
-    <div class="jumbotron">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title text-center">Random Quote Generator</h2>
-              <h4 class="card-text"><em>Description</em></h4>
-              <ul class="card-text">
-                <li>This webpage generates random quotes!</li>
-                <li>A user can generate random quotes by clicking the "show a quote button".</li>
-                <li>Without the use of the button, a quote will automatically generate a quote every 10 seconds!</li>
-                <li>Uses HTML, CSS and Javascript</li>
-              </ul>
-              <h4>Check out the project <a href="https://bodwood.github.io/Random_Quote_Generator/"
-                  target="_blank"><strong>here</strong></a></h4>
-            </div>
+
+
+
+    <div class="whatILove">
+      <!--START third container-->
+
+      <div class="col-12">
+        <h1>What I love</h1>
+      </div>
+
+
+      <div class="whatILoveContent">
+        <div class="row">
+          <div class="col" id="oneWheel">
+            <img src="img/skate.png" alt="icon of person skateboarding">
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title text-center">Vacation Page</h2>
-              <h4 class="card-text"><em>Description</em></h4>
-              <ul class="card-text">
-                <li>This webpage gives a breif description of my dream vacation.</li>
-                <li>Vacation packages are included, along with foods I want to try!</li>
-                <li>Uses HTML, CSS, Bootstrap</li>
-              </ul>
-              <h4>Check out the project <a href="https://bodwood.github.io/Vacation-Site/"
-                  target="_blank"><strong>here</strong></a></h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h2 class="card-title text-center">Animal Shelter</h2>
-              <h4 class="card-text"><em>Description</em></h4>
-              <ul class="card-text">
-                <li>This webpage provides descriptions about dogs that need to be rescued from the animal shelter.</li>
-                <li>Uses HTML, CSS</li>
-              </ul>
-              <h4>Check out the project <a href="https://bodwood.github.io/animal-shelter/"
-                  target="_blank"><strong>here</strong></a></h4>
-            </div>
+          <div class="col">
+            <p id="oneWheelP">During my free time I love to Onewheel. I have over 2000 miles between all three of my
+              boards.
+              I love the Onewheel and erider community! Espeically in Portland!
+            </p>
           </div>
         </div>
       </div>
-
     </div>
+
+
+
+
+    <div class="whatILoveContent">
+      <div class="row">
+        <div class="col">
+          <p id="foodP">Trying new food is an experience that I live for. Serisoulsy, I could eat non-stop if I couldn't
+            control myself. Indian curry and sushi are among my favorite foods!
+          </p>
+        </div>
+
+        <div class="col" id="food">
+          <img src="img/food.png" alt="icon of pineapple">
+        </div>
+      </div>
+    </div>
+
+    <div class="whatILoveContent">
+      <div class="row">
+        <div class="col" id="travel">
+          <img src="img/travel.png" alt="icon of sunset">
+        </div>
+        <div class="col">
+          <p id="travelP">Traveling is my all time favorite thing to do in life. I love exploring new places and
+            learning
+            about
+            cultures.
+            I want to travel to Europe and the Middle East, and eat delicious food.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-center">Random Quote Generator</h2>
+            <h4 class="card-text"><em>Description</em></h4>
+            <ul class="card-text">
+              <li>This webpage generates random quotes!</li>
+              <li>A user can generate random quotes by clicking the "show a quote button".</li>
+              <li>Without the use of the button, a quote will automatically generate a quote every 10 seconds!</li>
+              <li>Uses HTML, CSS and Javascript</li>
+            </ul>
+            <h4>Check out the project <a href="https://bodwood.github.io/Random_Quote_Generator/"
+                target="_blank"><strong>here</strong></a></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-center">Vacation Page</h2>
+            <h4 class="card-text"><em>Description</em></h4>
+            <ul class="card-text">
+              <li>This webpage gives a breif description of my dream vacation.</li>
+              <li>Vacation packages are included, along with foods I want to try!</li>
+              <li>Uses HTML, CSS, Bootstrap</li>
+            </ul>
+            <h4>Check out the project <a href="https://bodwood.github.io/Vacation-Site/"
+                target="_blank"><strong>here</strong></a></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title text-center">Animal Shelter</h2>
+            <h4 class="card-text"><em>Description</em></h4>
+            <ul class="card-text">
+              <li>This webpage provides descriptions about dogs that need to be rescued from the animal shelter.</li>
+              <li>Uses HTML, CSS</li>
+            </ul>
+            <h4>Check out the project <a href="https://bodwood.github.io/animal-shelter/"
+                target="_blank"><strong>here</strong></a></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 </body>
 
 </html>

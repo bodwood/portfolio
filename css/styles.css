@@ -1,14 +1,12 @@
-body {
-  background-size: 100% 100%;
-}
-
 #bodyContainer{
   display: table;
   height:20%;
   width: 100%;
-
   padding: 0;
+}
 
+h1{
+  font-size: 4rem;
 }
 
 hr {
@@ -17,6 +15,14 @@ hr {
   color: #E4F9F5;
   width: 5%;
   margin: 100px auto;
+}
+
+table{
+  width: 100%;
+}
+
+th{
+  font-size: 2rem;
 }
 
 .top-page {
@@ -30,6 +36,13 @@ hr {
   position: absolute;
   top: 50px;
   right: 300px;
+}
+
+.top-page .cloud2 {
+  position: absolute;
+  left: 200px;
+  bottom: 270px;
+
 }
 
 .top-page h2 {
@@ -50,108 +63,82 @@ hr {
 
 
 
-.top-page .cloud2 {
-  position: absolute;
-  left: 200px;
-  bottom: 270px;
-
-}
 
 .mid-page {
   background-color: #A5EBDE;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 200px;
+  padding: 100px 400px;
 }
 
 .mid-page h1 {
   padding-bottom: 20px;
-  text-align: center;
+
 }
 
-.about-me-and-image {
-  text-align: center;
-}
-
-.about-me-and-image h1 {
-  padding-bottom: 50px;
-}
-
-.me-and-dog {
+#photo-div {
   padding-bottom: 20px;
 }
 
-.me-and-dog img {
+#img-div{
   width: 200px;
   height: auto;
 
 }
 
-.education {
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 200px;
-  ;
-
+#educationDiv{
+  margin: 10% 0 10% 0;
 }
 
-.education h1 {
-  margin: auto;
-  padding-left: 175px;
-  padding-bottom: 100px;
+.whatILove{
   text-align: center;
 
+  
 }
 
-.college {
-  display: inline-block;
-
-}
-
-.college ol {
-  text-align: left;
-}
-
-.certificates {
-
-  float: right;
-  padding-right: 10%;
-}
-
-.certificates ul {
-  text-align: left;
-}
-
-.onewheel {
-  margin: 100px auto;
-  width: 50%;
+.whatILove h1{
   text-align: center;
-  font-family: Garamond;
-  font-size: 20px;
-  padding-bottom: 50px;
+  margin-bottom: 8%;
+  
 }
 
-.onewheel img {
-  width: 150px;
+.whatILoveContent{
+  margin-bottom: 4%;
+}
+
+#oneWheel {
+  
+  text-align: right;
   height: auto;
 }
 
-.onewheel p {
-  float: left;
+#oneWheelP{
+  padding-top: 10%;
+  width: 50%;
+  text-align: left;
 }
 
-.food {
-  padding-bottom: 50px;
-  font-family: Garamond;
-  font-size: 20px;
-}
-
-.food img {
-  width: 150px;
+#food {
+  
+  text-align: left;
   height: auto;
+}
+
+#foodP{
+  padding-top: 10%;
+  margin-left: 50%;
+  text-align: right;
+
+}
+
+#travel {
+  text-align: right;
+  height: auto;
+}
+
+#travelP{
+  padding-top: 10%;
+  width: 50%;
+  text-align: left;
 
 }
 
