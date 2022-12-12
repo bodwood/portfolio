@@ -46,9 +46,9 @@ th{
 }
 
 .top-page h2 {
-  padding-top: 50px;
+  animation-name: fadein;
   animation-delay: 2s;
-  animation: 8s fadein;
+  animation-duration: 3s;
 }
 
 @keyframes fadein {
@@ -61,7 +61,22 @@ th{
   }
 }
 
+#textIntro{
+  overflow: hidden;
+}
 
+#textName{
+  display: inline-block;
+  transform: translateY(110%) ;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  font-weight: 600;
+  color:#2DCAAD
+}
+
+#textName1{
+ display: none; 
+}
 
 
 .mid-page {
@@ -91,8 +106,10 @@ th{
 
 .whatILove{
   text-align: center;
+  background-color: #A5EBDE;
+  text-align: center;
+  padding: 100px 400px;
 
-  
 }
 
 .whatILove h1{
