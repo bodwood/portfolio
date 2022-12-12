@@ -41,19 +41,8 @@ th {
 .top-page .cloud2 {
   position: absolute;
   left: 200px;
-  bottom: 270px;
+  bottom: 220px;
 
-}
-
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
 }
 
 #textIntro {
@@ -62,7 +51,7 @@ th {
 
 #textName {
   display: inline-block;
-  transform: translateY(110%);
+  transform: translateY(250%);
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   font-weight: 600;
@@ -80,9 +69,19 @@ th {
   padding: 100px 400px;
 }
 
-.mid-page h1 {
+#aboutMeDiv {
   padding-bottom: 20px;
+  overflow: hidden;
 
+}
+
+#aboutMe{
+  display: inline-block;
+  transform: translateX(-250%);
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  font-weight: 600;
+  color: #2DCAAD
 }
 
 #photo-div {
