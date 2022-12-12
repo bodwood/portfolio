@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollTrigger);
+
 function intro() {
   let tl = gsap.timeline({
     ease: 'power1.in'
@@ -13,24 +15,28 @@ function intro() {
 
 function introAProgrammer() {
   const t2 = gsap.timeline({
-    defaults: { duration: 2}
-  })
-  .to("#textName1", { opacity: 0})
-  .set("#textName1", {innerText: "a programmer."})
-  .to("#textName1", {opacity: 1});
+      defaults: {
+        duration: 2
+      }
+    })
+    .to("#textName1", {
+      opacity: 0
+    })
+    .set("#textName1", {
+      innerText: "a programmer."
+    })
+    .to("#textName1", {
+      opacity: 1
+    });
 }
 
-function aboutMe(){
-  const t3 = gsap.timeline({
-    defaults: { duration: 2}
-  });
-  t3.to("#aboutMe", {
-    x: '0%',
-    onComplete: () => {
-      document.querySelector('#aboutMeDiv').style.overflow = 'visible';
-    }
+  //--------About Me section. WIP slide in from left using parallex
+gsap.to("#aboutMe", {
+    x: '10vw',
+    duration: 3,
+    scrollTrigger: "#aboutMe",
   })
-}
+
+
 intro();
 introAProgrammer();
-aboutMe();

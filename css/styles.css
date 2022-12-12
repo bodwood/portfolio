@@ -28,8 +28,9 @@ th {
 .top-page {
   background-color: #E4F9F5;
   position: relative;
-  padding: 300px 400px;
+  padding: 500px 400px;
   text-align: center;
+  height: 100vh;
 }
 
 .top-page .cloud1 {
@@ -66,22 +67,26 @@ th {
 .mid-page {
   background-color: #A5EBDE;
   text-align: center;
-  padding: 100px 400px;
+  padding: 100px 0px;
+  height: 100vh;
+ 
 }
 
-#aboutMeDiv {
-  padding-bottom: 20px;
-  overflow: hidden;
 
-}
 
 #aboutMe{
+  padding-bottom: 20px;
+  width: 100vw;
+  overflow: hidden;
+  text-align: left;
+  align-items: left;
   display: inline-block;
-  transform: translateX(-250%);
+  width: 100vw;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   font-weight: 600;
-  color: #2DCAAD
+  color: #2DCAAD;
+  overflow: hidden;
 }
 
 #photo-div {
