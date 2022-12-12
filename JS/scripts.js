@@ -10,4 +10,14 @@ function intro() {
     }
   });
 }
+
+function introAProgrammer() {
+  const t2 = gsap.timeline({
+    defaults: { duration: 3}
+  })
+  .to("#textName1", { opacity: 0})
+  .set("#textName1", {innerText: "a programmer."})
+  .to("#textName1", {opacity: 1});
+}
 intro();
+introAProgrammer();

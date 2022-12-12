@@ -1,11 +1,11 @@
-#bodyContainer{
+#bodyContainer {
   display: table;
-  height:20%;
+  height: 20%;
   width: 100%;
   padding: 0;
 }
 
-h1{
+h1 {
   font-size: 4rem;
 }
 
@@ -17,11 +17,11 @@ hr {
   margin: 100px auto;
 }
 
-table{
+table {
   width: 100%;
 }
 
-th{
+th {
   font-size: 2rem;
 }
 
@@ -45,11 +45,6 @@ th{
 
 }
 
-.top-page h2 {
-  animation-name: fadein;
-  animation-delay: 2s;
-  animation-duration: 3s;
-}
 
 @keyframes fadein {
   from {
@@ -61,21 +56,21 @@ th{
   }
 }
 
-#textIntro{
+#textIntro {
   overflow: hidden;
 }
 
-#textName{
+#textName {
   display: inline-block;
-  transform: translateY(110%) ;
+  transform: translateY(110%);
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   font-weight: 600;
-  color:#2DCAAD
+  color: #2DCAAD
 }
 
-#textName1{
- display: none; 
+#textName1 {
+  height: 100px;
 }
 
 
@@ -94,17 +89,17 @@ th{
   padding-bottom: 20px;
 }
 
-#img-div{
+#img-div {
   width: 200px;
   height: auto;
 
 }
 
-#educationDiv{
+#educationDiv {
   margin: 10% 0 10% 0;
 }
 
-.whatILove{
+.whatILove {
   text-align: center;
   background-color: #A5EBDE;
   text-align: center;
@@ -112,35 +107,35 @@ th{
 
 }
 
-.whatILove h1{
+.whatILove h1 {
   text-align: center;
   margin-bottom: 8%;
-  
+
 }
 
-.whatILoveContent{
+.whatILoveContent {
   margin-bottom: 4%;
 }
 
 #oneWheel {
-  
+
   text-align: right;
   height: auto;
 }
 
-#oneWheelP{
+#oneWheelP {
   padding-top: 10%;
   width: 50%;
   text-align: left;
 }
 
 #food {
-  
+
   text-align: left;
   height: auto;
 }
 
-#foodP{
+#foodP {
   padding-top: 10%;
   margin-left: 50%;
   text-align: right;
@@ -152,7 +147,7 @@ th{
   height: auto;
 }
 
-#travelP{
+#travelP {
   padding-top: 10%;
   width: 50%;
   text-align: left;
