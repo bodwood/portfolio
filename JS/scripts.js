@@ -30,13 +30,34 @@ function introAProgrammer() {
     });
 }
 
-  //--------About Me section. WIP slide in from left using parallex
+function showArrow() {
+  const t2 = gsap.timeline({
+      repeat: -1,
+    })
+    .to(".arrows", {
+      opacity: 0,
+      duration: 1
+    })
+    .to(".arrows", {
+      opacity: 1,
+      duration: 1
+    }).to(".arrows", {
+      opacity: 0,
+      duration: 1
+    });
+}
+
+
+
+
+//--------About Me section. WIP slide in from left using parallex
 gsap.to("#aboutMe", {
-    x: '',
-    duration: 3,
-    scrollTrigger: "#aboutMe",
-  })
+  x: '',
+  duration: 3,
+  scrollTrigger: "#aboutMe",
+})
 
 
 intro();
 introAProgrammer();
+showArrow();
