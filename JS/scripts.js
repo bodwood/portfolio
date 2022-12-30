@@ -32,7 +32,7 @@ function introAProgrammer() {
 
   //--------About Me section. WIP slide in from left using parallex
 gsap.to("#aboutMe", {
-    x: '10vw',
+    x: '',
     duration: 3,
     scrollTrigger: "#aboutMe",
   })

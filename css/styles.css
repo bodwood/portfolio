@@ -1,10 +1,3 @@
-#bodyContainer {
-  display: table;
-  height: 20%;
-  width: 100%;
-  padding: 0;
-}
-
 h1 {
   font-size: 4rem;
 }
@@ -28,22 +21,26 @@ th {
 .top-page {
   background-color: #E4F9F5;
   position: relative;
-  padding: 500px 400px;
   text-align: center;
   height: 100vh;
+  width: 100vw;
 }
 
-.top-page .cloud1 {
+.full{
+  height: 100vh;
+  width: 100vw;
+}
+
+.cloud1 {
   position: absolute;
   top: 50px;
-  right: 300px;
+  right: 100px;
 }
 
-.top-page .cloud2 {
+.cloud2 {
   position: absolute;
-  left: 200px;
-  bottom: 220px;
-
+  left: 100px;
+  bottom: 50px;
 }
 
 #textIntro {
@@ -56,23 +53,25 @@ th {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   font-weight: 600;
-  color: #2DCAAD
+  color: #2DCAAD;
+}
+
+#topText{
+
+  top: 100px;
 }
 
 #textName1 {
   height: 100px;
 }
 
-
 .mid-page {
   background-color: #A5EBDE;
   text-align: center;
-  padding: 100px 0px;
+
   height: 100vh;
- 
+  width: 100vw;
 }
-
-
 
 #aboutMe{
   padding-bottom: 20px;
