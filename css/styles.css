@@ -91,7 +91,7 @@ th {
   width: 100vw;
 }
 
-.vertical-line{
+.vertical-line {
   border-left: 2px solid black;
   height: 100%;
   position: absolute;
@@ -99,7 +99,7 @@ th {
 
 }
 
-#description{
+#description {
   text-align: left;
 }
 
@@ -119,8 +119,8 @@ th {
 
 #img-div {
   max-width: 400px;
-	border-radius: 10px;
-	box-shadow: 5px 5px 10px -5px #696868;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px -5px #696868;
 
 
 }
@@ -130,6 +130,7 @@ th {
 }
 
 .whatILove {
+  margin-top: 10%;
   text-align: center;
   background-color: #A5EBDE;
   text-align: center;
@@ -207,5 +208,85 @@ th {
   height: auto;
 }
 
+.chart-div {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto 4em;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 992px) {
+  .chart-grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+.chart-grid {
+  width: 100%;
+  max-width: 100%;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 3em;
+}
+
+.school-entry{
+  border-radius: 20px;
+  padding: 2em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+}
+
+@media (min-width: 992px){
+.school-epicodus {
+  -ms-grid-column-span: 4;
+  -ms-grid-column: 1;
+  grid-column: 1/span 3;
+  grid-column-start: 10;
+  grid-column-end: span 3;
+  grid-row: 1/1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+}
+.school-epicodus {
+  background: #aadcda;
+  color: #090f0f;
+}
+
+@media (min-width: 992px){
+.school-utah {
+  -ms-grid-column-span: 3;
+  -ms-grid-column: 6;
+  grid-column: 8/span 3;
+  grid-row: 2/2;
+}
+}
+.school-utah {
+  background: #ffeec4;
+  color: #5a4610;
+}
+
+@media (min-width: 992px){
+.school-wgu {
+  -ms-grid-column-span: 4;
+  -ms-grid-column: 4;
+  grid-column: 4/span 4;
+  grid-row: 3/3;
+}}
+
+.school-wgu{
+  background: #d4dbf9;
+  color: #2a335a;
+}
 
 
+.vertical-line2 {
+  border-left: 2px solid black;
+  height: 100%;
+  position: absolute;
+  right: 100%;
+
+}
