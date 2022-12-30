@@ -91,22 +91,37 @@ th {
   width: 100vw;
 }
 
+.vertical-line{
+  border-left: 2px solid black;
+  height: 100%;
+  position: absolute;
+  left: 75%;
+
+}
+
+#description{
+  text-align: left;
+}
+
 #aboutMe {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   font-weight: 600;
   color: #2DCAAD;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #photo-div {
   padding-bottom: 20px;
+  text-align: left;
 }
 
 #img-div {
   max-width: 400px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px -5px #696868;
+
 
 }
 
@@ -191,3 +206,6 @@ th {
   background: rgba(204, 204, 204, 0.91);
   height: auto;
 }
+
+
+
