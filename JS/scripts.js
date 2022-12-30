@@ -48,16 +48,6 @@ function showArrow() {
 }
 
 
-
-
-//--------About Me section. WIP slide in from left using parallex
-gsap.to("#aboutMe", {
-  x: '',
-  duration: 3,
-  scrollTrigger: "#aboutMe",
-})
-
-
 intro();
 introAProgrammer();
 showArrow();

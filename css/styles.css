@@ -86,24 +86,17 @@ th {
 .mid-page {
   background-color: #A5EBDE;
   text-align: center;
-
+  position: relative;
   height: 100vh;
   width: 100vw;
 }
 
 #aboutMe {
-  padding-bottom: 20px;
-  width: 100vw;
-  overflow: hidden;
-  text-align: left;
-  align-items: left;
-  display: inline-block;
-  width: 100vw;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   font-weight: 600;
   color: #2DCAAD;
-  overflow: hidden;
+  padding-top: 5%;
 }
 
 #photo-div {
@@ -111,8 +104,9 @@ th {
 }
 
 #img-div {
-  width: 200px;
-  height: auto;
+  max-width: 400px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px -5px #696868;
 
 }
 
