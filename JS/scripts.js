@@ -23,7 +23,7 @@ function introAProgrammer() {
       opacity: 0
     })
     .set("#textName1", {
-      innerText: "a programmer."
+      innerText: "Junior Developer."
     })
     .to("#textName1", {
       opacity: 1
@@ -46,6 +46,8 @@ function showArrow() {
       duration: 1
     });
 }
+
+
 
 
 intro();

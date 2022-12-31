@@ -19,7 +19,8 @@ th {
 }
 
 .top-page {
-  background-color: #E4F9F5;
+  background: linear-gradient(#E4F9F5 90%, white);
+  backdrop-filter: blur(3px);
   position: relative;
   text-align: center;
   height: 100vh;
@@ -50,14 +51,18 @@ th {
 #textName {
   display: inline-block;
   transform: translateY(250%);
-  font-family: 'Sacramento', cursive;
+  font-family: 'Major Mono Display', monospace;
   font-size: 5.625rem;
   font-weight: 600;
   color: #2DCAAD;
 }
 
-#topText {
+#textName1{
+  font-family: 'Major Mono Display', monospace;
+}
 
+#topText {
+  font-family: 'Major Mono Display', monospace;
   top: 100px;
 }
 
@@ -83,7 +88,8 @@ th {
 
 
 .mid-page {
-  background-color: #A5EBDE;
+  background: linear-gradient(white 0.25%, #A5EBDE 90%);
+
   text-align: center;
   position: relative;
   height: 100vh;
@@ -104,7 +110,7 @@ th {
 }
 
 #aboutMe {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Major Mono Display', monospace;
   font-size: 5.625rem;
   font-weight: 600;
   color: #2DCAAD;
@@ -261,13 +267,14 @@ th {
   .school-utah {
     -ms-grid-column-span: 2;
     -ms-grid-column: 1;
-    grid-column: 2/span 2;
-    grid-row: 2/2;
+    grid-column: 3/span 2;
+    grid-row: 3/3;
   }
 }
 
 .school-utah {
-  background: #ccecd7;
+  background: #d7ccec;
+ 
   color: #5a4610;
 }
 
@@ -275,13 +282,13 @@ th {
   .school-wgu {
     -ms-grid-column-span: 2;
     -ms-grid-column: 3;
-    grid-column: 3/span 2;
-    grid-row: 3/3;
+    grid-column: 2/span 2;
+    grid-row: 2/3;
   }
 }
 
 .school-wgu {
-  background: #d7ccec;
+  background: #ccecd7;
   color: #2a335a;
 }
 
@@ -310,6 +317,7 @@ th {
 .education-vertical {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  font-family: 'Secular One', sans-serif;
-  font-size: 2.5rem;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3rem;
 }
+
