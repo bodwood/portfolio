@@ -27,16 +27,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link grow" href="#">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link grow" href="#aboutMe">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link grow" href="#">Projects</a>
           </li>
         </ul>
       </div></div>
@@ -65,7 +62,7 @@
 
       <div class="row">
         <svg class="arrows">
-          <path class="arrow1" d="M0 0 L30 32 L60 0"></path>
+          <a href="#aboutMe"><path class="arrow1" d="M0 0 L30 32 L60 0"></path></a>
 
         </svg>
       </div>
@@ -98,10 +95,21 @@
       <div class="row" style="margin: auto">
         <div class="col-4 education-vertical">Education</div>
         <div class="col chart-grid">
-          <div class="school-entry school-epicodus">Epicodus</div>
-          <div class="school-entry school-wgu">Western Governors University</div>
-          <div class="school-entry school-utah">University of Utah</div>
-          <div class="school-entry school-certificates">Certificates</div>
+          <div class="school-entry school-epicodus grow">
+            <p>Epicodus</p>
+      <p class="grow-to-show hidden" id="inner-school">Certificate of Completion</p>
+          </div>
+          <div class="school-entry school-wgu grow"><p>Western Governors University</p>
+            <p class="grow-to-show hidden" id="inner-school">B.S. Computer Science.</p>
+          </div>
+          <div class="school-entry school-utah grow">
+            <p>University of Utah</p>
+            <p class="grow-to-show hidden" id="inner-school">B.S. Kinesiology.</p>
+          </div>
+          <div class="school-entry school-certificates grow">
+            <p>Certificates</p>
+            <p class="grow-to-show hidden" id="inner-school">ITIL V4. Project+. MS Fundamentals.</p>
+          </div>
         </div>
         <div class="col-1">
           <div class="vertical-line2">

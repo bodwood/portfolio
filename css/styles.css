@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-size: 4rem;
 }
@@ -19,7 +23,7 @@ th {
 }
 
 .top-page {
-  background: linear-gradient(#E4F9F5 90%, white);
+  background: linear-gradient(#E4F9F5 95%, white);
   backdrop-filter: blur(3px);
   position: relative;
   text-align: center;
@@ -88,7 +92,7 @@ th {
 
 
 .mid-page {
-  background: linear-gradient(white 0.25%, #A5EBDE 90%);
+  background: linear-gradient(white, #A5EBDE 90%);
 
   text-align: center;
   position: relative;
@@ -260,7 +264,24 @@ th {
 
 .school-epicodus {
   background: #e1eccc;
-  color: #090f0f;
+  color: #090f0f; 
+  position: relative;
+  overflow:hidden;
+  opacity: 1;
+}
+
+
+
+.grow-to-show{
+    width: 90%;
+    display: flex;
+    display: none;
+    opacity: 0;
+}
+
+.grow:hover .grow-to-show { 
+  display: contents;
+  opacity: 1;
 }
 
 @media (min-width: 992px) {
@@ -305,6 +326,13 @@ th {
   background: #eccce1;
   color: #2a335a;
 }
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+
+
 
 
 .vertical-line2 {
