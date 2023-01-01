@@ -131,8 +131,6 @@ th {
   max-width: 400px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px -5px #696868;
-
-
 }
 
 #educationDiv {
@@ -286,10 +284,10 @@ th {
 }
 
 .grow-to-show {
-  width: 90%;
-  display: flex;
+
+
   display: none;
-  opacity: 0;
+
 }
 
 .grow:hover .grow-to-show {
@@ -325,6 +323,12 @@ th {
   background: #d7ccec;
   color: #5a4610;
   animation-delay: 1s;
+}
+
+.graduation-pic {
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px -5px #696868;
 }
 
 
