@@ -61,7 +61,7 @@ th {
   color: #2DCAAD;
 }
 
-#textName1{
+#textName1 {
   font-family: 'Major Mono Display', monospace;
 }
 
@@ -264,39 +264,37 @@ th {
 
 .school-epicodus {
   background: #e1eccc;
-  color: #090f0f; 
+  color: #090f0f;
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
   opacity: 1;
 }
 
-
-
-.grow-to-show{
-    width: 90%;
-    display: flex;
-    display: none;
-    opacity: 0;
+.school-epicodus:hover {
+  animation-play-state: paused;
 }
 
-.grow:hover .grow-to-show { 
+.grow {
+  transition: all .2s ease-in-out;
+  animation: tilt-shaking 3s ease infinite;
+}
+
+.grow:hover {
+  animation: stop-shake infinite;
+  animation-play-state: paused;
+
+}
+
+.grow-to-show {
+  width: 90%;
+  display: flex;
+  display: none;
+  opacity: 0;
+}
+
+.grow:hover .grow-to-show {
   display: contents;
   opacity: 1;
-}
-
-@media (min-width: 992px) {
-  .school-utah {
-    -ms-grid-column-span: 2;
-    -ms-grid-column: 1;
-    grid-column: 3/span 2;
-    grid-row: 3/3;
-  }
-}
-
-.school-utah {
-  background: #d7ccec;
- 
-  color: #5a4610;
 }
 
 @media (min-width: 992px) {
@@ -311,7 +309,24 @@ th {
 .school-wgu {
   background: #ccecd7;
   color: #2a335a;
+  animation-delay: 1.25s;
 }
+
+@media (min-width: 992px) {
+  .school-utah {
+    -ms-grid-column-span: 2;
+    -ms-grid-column: 1;
+    grid-column: 3/span 2;
+    grid-row: 3/3;
+  }
+}
+
+.school-utah {
+  background: #d7ccec;
+  color: #5a4610;
+  animation-delay: 1s;
+}
+
 
 @media (min-width: 992px) {
   .school-certificates {
@@ -325,14 +340,8 @@ th {
 .school-certificates {
   background: #eccce1;
   color: #2a335a;
+  animation-delay: 1.5s;
 }
-
-.grow { 
-  transition: all .2s ease-in-out; 
-  }
-  
-
-
 
 
 .vertical-line2 {
@@ -349,3 +358,56 @@ th {
   font-size: 3rem;
 }
 
+
+
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  1.78571% {
+    transform: rotate(2.5deg)
+  }
+
+  3.57143% {
+    transform: rotate(5deg)
+  }
+
+  5.35714% {
+    transform: rotate(2.5deg)
+  }
+
+  7.14286% {
+    transform: rotate(0deg)
+  }
+
+  8.92857% {
+    transform: rotate(-2.5deg)
+  }
+
+  10.71429% {
+    transform: rotate(-5deg)
+  }
+
+  12.5% {
+    transform: rotate(-2.5deg)
+  }
+
+  14.5% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(0deg)
+  }
+}
+
+@keyframes stop-shake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -4,7 +4,9 @@
 <head>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
   <title>Portfolio</title>
 </head>
 
@@ -14,29 +16,25 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
       <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" 
-              type="button" 
-              data-toggle="collapse" 
-              data-target="#navbarNav" 
-              aria-controls="navbarNav" 
-              aria-expanded="false" 
-              aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link grow" href="#">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link grow" href="#aboutMe">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link grow" href="#">Projects</a>
-          </li>
-        </ul>
-      </div></div>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link grow" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link grow" href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link grow" href="#">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
 
@@ -62,7 +60,9 @@
 
       <div class="row">
         <svg class="arrows">
-          <a href="#aboutMe"><path class="arrow1" d="M0 0 L30 32 L60 0"></path></a>
+          <a href="#aboutMe">
+            <path class="arrow1" d="M0 0 L30 32 L60 0"></path>
+          </a>
 
         </svg>
       </div>
@@ -76,7 +76,7 @@
 
       <h1 id="aboutMe">About me</h1>
       <div class="row" style="margin: auto">
-        <div class="col-2" >
+        <div class="col-2">
           <div class="vertical-line">
           </div>
         </div>
@@ -97,9 +97,10 @@
         <div class="col chart-grid">
           <div class="school-entry school-epicodus grow">
             <p>Epicodus</p>
-      <p class="grow-to-show hidden" id="inner-school">Certificate of Completion</p>
+            <p class="grow-to-show hidden" id="inner-school">Certificate of Completion</p>
           </div>
-          <div class="school-entry school-wgu grow"><p>Western Governors University</p>
+          <div class="school-entry school-wgu grow">
+            <p>Western Governors University</p>
             <p class="grow-to-show hidden" id="inner-school">B.S. Computer Science.</p>
           </div>
           <div class="school-entry school-utah grow">

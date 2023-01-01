@@ -47,6 +47,13 @@ function showArrow() {
     });
 }
 
+function stopShake(){
+  const shakingDiv = document.getElementById('shake');
+  shakingDiv.addEventListener('mouseover', (e) => {
+    shakingDiv.removeAttribute("id", "shake");
+  } );
+}
+
 
 
 
@@ -55,4 +62,5 @@ function showArrow() {
 intro();
 introAProgrammer();
 showArrow();
+stopShake();
 
