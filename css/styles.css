@@ -22,6 +22,14 @@ th {
   font-size: 2rem;
 }
 
+.enlarge {
+  transition: transform .1s;
+}
+
+.enlarge:hover {
+  transform: scale(1.1);
+}
+
 .top-page {
   background: linear-gradient(#E4F9F5 95%, white);
   backdrop-filter: blur(3px);
@@ -263,31 +271,21 @@ th {
 .school-epicodus {
   background: #e1eccc;
   color: #090f0f;
-  position: relative;
-  overflow: hidden;
-  opacity: 1;
-}
-
-.school-epicodus:hover {
-  animation-play-state: paused;
 }
 
 .grow {
-  transition: all .2s ease-in-out;
+  transition: transform .5s ease-in-out;
   animation: tilt-shaking 3s ease infinite;
 }
 
 .grow:hover {
   animation: stop-shake infinite;
   animation-play-state: paused;
-
+  transform: scale(1.2);
 }
 
 .grow-to-show {
-
-
   display: none;
-
 }
 
 .grow:hover .grow-to-show {
@@ -403,15 +401,5 @@ th {
 
   100% {
     transform: rotate(0deg)
-  }
-}
-
-@keyframes stop-shake {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
   }
 }
