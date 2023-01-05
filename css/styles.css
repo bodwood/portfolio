@@ -101,10 +101,9 @@ th {
 
 .mid-page {
   background: linear-gradient(white, #A5EBDE 90%);
-
   text-align: center;
   position: relative;
-  height: 100vh;
+  height: auto;
   width: 100vw;
 }
 
@@ -118,7 +117,6 @@ th {
 
 #description {
   text-align: left;
-  width: 100%;
 }
 
 #aboutMe {
@@ -137,6 +135,7 @@ th {
 
 #img-div {
   max-width: 400px;
+  width: 300px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px -5px #696868;
 }
@@ -150,7 +149,6 @@ th {
   background-color: #A5EBDE;
   text-align: center;
   padding: 800px 400px;
-
 }
 
 .whatILove h1 {
@@ -223,7 +221,7 @@ th {
   height: auto;
 }
 
-.chart-div {
+/* .chart-div {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto 4em;
@@ -271,7 +269,7 @@ th {
 .school-epicodus {
   background: #e1eccc;
   color: #090f0f;
-}
+} */
 
 .grow {
   transition: transform .5s ease-in-out;
@@ -284,16 +282,16 @@ th {
   transform: scale(1.2);
 }
 
-.grow-to-show {
+/* .grow-to-show {
   display: none;
 }
 
 .grow:hover .grow-to-show {
   display: contents;
   opacity: 1;
-}
+} */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .school-wgu {
     -ms-grid-column-span: 2;
     -ms-grid-column: 3;
@@ -315,19 +313,14 @@ th {
     grid-column: 3/span 2;
     grid-row: 3/3;
   }
-}
+} */
 
-.school-utah {
+/* .school-utah {
   background: #d7ccec;
   color: #5a4610;
   animation-delay: 1s;
 }
 
-.graduation-pic {
-  max-width: 200px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px -5px #696868;
-}
 
 
 @media (min-width: 992px) {
@@ -343,14 +336,90 @@ th {
   background: #eccce1;
   color: #2a335a;
   animation-delay: 1.5s;
+} */
+
+
+#oneWheelP {
+  padding-top: 10%;
+  width: 50%;
+  text-align: left;
 }
 
+#food {
+
+  text-align: left;
+  height: auto;
+}
+
+#foodP {
+  padding-top: 10%;
+  margin-left: 50%;
+  text-align: right;
+
+}
+
+.school-epicodus{
+  margin-top: 7%;
+  text-align: right;
+  height: auto;
+}
+
+.school-epicodus-pic{
+  width: 50%;
+  text-align: left;
+  height: auto;
+  
+}
+
+.school-utah{
+  margin-top: 7%;
+  text-align: right;
+  height: auto;
+}
+
+.school-utah-pic{
+  width: 50%;
+  text-align: left;
+  height: auto;
+  animation-delay: .5s;
+}
+
+.school-wgu{
+  margin-top: 7%;
+  text-align: left;
+  height: auto;
+}
+
+.school-wgu-pic{
+  width: 50%;
+  text-align: right;
+  height: auto;
+  animation-delay: 1.25s;
+}
+
+.education-pics {
+  max-width: 300px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px -5px #000000;
+  margin-bottom: 10%;
+}
+
+.education-pics-wgu {
+  max-width: 300px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px -5px #000000;
+  margin-bottom: 10%;
+}
 
 .vertical-line2 {
   border-left: 2px solid black;
-  height: 100%;
+  margin-top: 2%;
+  height: 50%;
   position: absolute;
-  right: 100%;
+  right: 10%;
 }
 
 .education-vertical {
@@ -358,6 +427,8 @@ th {
   text-orientation: upright;
   font-family: 'Major Mono Display', monospace;
   font-size: 3rem;
+
+  max-height: 600px;
 }
 
 
@@ -368,15 +439,15 @@ th {
   }
 
   1.78571% {
-    transform: rotate(2.5deg)
+    transform: rotate(1deg)
   }
 
   3.57143% {
-    transform: rotate(5deg)
+    transform: rotate(1.5deg)
   }
 
   5.35714% {
-    transform: rotate(2.5deg)
+    transform:rotate(1deg)
   }
 
   7.14286% {
@@ -384,15 +455,15 @@ th {
   }
 
   8.92857% {
-    transform: rotate(-2.5deg)
+    transform:rotate(-1deg)
   }
 
   10.71429% {
-    transform: rotate(-5deg)
+    transform:   rotate(-1.5deg)
   }
 
   12.5% {
-    transform: rotate(-2.5deg)
+    transform: rotate(-1deg)
   }
 
   14.5% {
