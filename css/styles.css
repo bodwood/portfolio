@@ -31,7 +31,7 @@ th {
 }
 
 .top-page {
-  background: linear-gradient(#E4F9F5 95%, white);
+  background: linear-gradient(#E4F9F5 90%, white);
   backdrop-filter: blur(3px);
   position: relative;
   text-align: center;
@@ -100,7 +100,7 @@ th {
 
 
 .mid-page {
-  background: linear-gradient(white, #A5EBDE 90%);
+  background: linear-gradient(white, #A5EBDE 80%);
   text-align: center;
   position: relative;
   height: auto;
@@ -473,4 +473,33 @@ th {
   100% {
     transform: rotate(0deg)
   }
+
+}
+
+.projects {
+  background: linear-gradient( #A5EBDE 60%, #2DCAAD);
+  backdrop-filter: blur(3px);
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Major Mono Display', monospace;
+  padding-top: 9%;
+}
+
+.projects h1{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 5.625rem;
+  font-weight: 600;
+  color: #2DCAAD;
+  padding-bottom: 5%;
+}
+
+.random-quote{
+  max-width: 500px;
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px -5px #000000;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
