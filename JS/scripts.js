@@ -23,7 +23,7 @@ function introAProgrammer() {
       opacity: 0
     })
     .set("#textName1", {
-      innerText: "Junior Developer."
+      innerText: "Software Developer."
     })
     .to("#textName1", {
       opacity: 1
