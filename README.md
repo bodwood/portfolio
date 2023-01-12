@@ -12,7 +12,7 @@ _https://github.com/bodwood/portfolio_
 
 ## Github Site
 
-_https://bodwood.github.io/porfolio_
+_https://bodwood.github.io/portfolio_
 
 ---
 
